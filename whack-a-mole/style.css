@@ -1,0 +1,30 @@
+body {
+  background-color: green;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.square {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: red;
+}
+.grid {
+  position: fixed;
+  top: 0px;
+  bottom: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 618px;
+  height: 618px;
+  box-shadow: 2px 2px 2px 7px black;
+}
+.mole {
+  background-image: url("mole.jpg");
+  background-size: cover;
+}
